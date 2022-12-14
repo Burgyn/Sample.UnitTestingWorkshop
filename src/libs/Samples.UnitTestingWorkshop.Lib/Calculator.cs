@@ -6,17 +6,17 @@ public class Calculator
     {
         return a + b;
     }
-    
+
     public int Subtract(int a, int b)
     {
         return a - b;
     }
-    
+
     public int Multiply(int a, int b)
     {
         return a * b;
     }
-    
+
     public (int Result, int Remainder) Divide(int a, int b)
     {
         if (b == 0)

@@ -28,7 +28,7 @@ public class CalculatorShould
     }
 
     [Theory]
-    [InlineData(5, 5, 25)]
+    [InlineData(1, 1, 1)]
     public void MultiplyTwoNumbers(int a, int b, int expected)
     {
         var sut = new Calculator();
@@ -39,7 +39,7 @@ public class CalculatorShould
     }
 
     [Theory]
-    [InlineData(5, 5, 1,0)]
+    [InlineData(1, 1, 1,0)]
     public void DivideTwoNumbers(int a, int b, int expected, int remainder)
     {
         var sut = new Calculator();
