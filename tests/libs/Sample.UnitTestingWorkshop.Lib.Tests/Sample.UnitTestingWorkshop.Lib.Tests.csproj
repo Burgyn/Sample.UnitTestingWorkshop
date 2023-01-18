@@ -10,9 +10,8 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <projectReference Include="../../../src/libs/Samples.UnitTestingWorkshop.Lib/Samples.UnitTestingWorkshop.Lib.csproj" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
-    <PackageReference Include="xunit" Version="2.4.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2"/>
+    <PackageReference Include="xunit" Version="2.4.2"/>
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -21,6 +20,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="FluentAssertions" Version="*" />
+    <PackageReference Include="FluentAssertions" Version="*"/>
+    <PackageReference Include="AutoBogus" Version="*"/>
+    <PackageReference Include="AutoFixture.Xunit2" Version="*"/>
+    <projectReference Include="../../../src/libs/Samples.UnitTestingWorkshop.Lib/Samples.UnitTestingWorkshop.Lib.csproj"/>
   </ItemGroup>
 </Project>
